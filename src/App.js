@@ -18,7 +18,7 @@ class App extends Component {
 	componentDidMount() {
 		axios
 			.get(
-				"http://jsonplaceholder.typicode.com/todos/?_limit=10&completed=false"
+				"https://jsonplaceholder.typicode.com/todos/?_limit=10&completed=false"
 			)
 			.then((res) => this.setState({ todos: res.data }));
 	}
@@ -36,7 +36,7 @@ class App extends Component {
 
 	handleDelete = (id) => {
 		axios
-			.delete(`http://jsonplaceholder.typicode.com/todos/${id}`)
+			.delete(`https://jsonplaceholder.typicode.com/todos/${id}`)
 			.then((res) =>
 				this.setState({
 					todos: this.state.todos.filter(
@@ -48,7 +48,7 @@ class App extends Component {
 
 	handleAdd = (title) => {
 		axios
-			.post("http://jsonplaceholder.typicode.com/todos", {
+			.post("https://jsonplaceholder.typicode.com/todos", {
 				title,
 				completed: false,
 			})
