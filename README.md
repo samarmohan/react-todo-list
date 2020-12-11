@@ -18,5 +18,5 @@ Deployed [here](https://stupefied-booth-e031ea.netlify.app/)! <br />
 
 ### Other Lists
 
-[Vue Todo List](https://github.com/samarmohan/vue-todo-list)
-Angular coming soon!
+[Vue Todo List](https://github.com/samarmohan/vue-todo-list) <br />
+[Angular Todo List](https://github.com/samarmohan/angular-todo-list)
